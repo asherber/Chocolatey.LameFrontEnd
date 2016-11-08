@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>lame-front-end</id>
+    <title>Lame Front-End</title>
+    <version>1.8.1</version>
+    <authors>Jacek Pacera</authors>
+    <owners>asherber</owners>
+    <summary>GUI for the LAME MP3 encoder</summary>
+    <description>Graphical interface (GUI) for the popular and very fast MP3 encoder &amp; decoder - LAME. It offers easy access to all LAME parameters without the need for command line usage. The program offers a simple mode and an advanced mode which reveals additional expert options. Lame Front-End can work in batch mode, so it can be used by external applications to encoding/decoding files, e.g. by Exact Audio Copy, CDex.</description>
+    <projectUrl>http://www.pazera-software.com/products/lame-front-end</projectUrl>
+    <tags>lame mp3 audio converter admin</tags>
+    <copyright>2013 Pazera Jacek</copyright>
+    <licenseUrl>http://www.pazera-software.com/products/lame-front-end/#eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.pazera-software.com/products/lame-front-end/#changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
